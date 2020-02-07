@@ -85,8 +85,8 @@ class FeatureDiscovery extends StatefulWidget {
   /// Description to be displayed in the overlay.
   final String description;
 
-  /// Icon to be promoted.
-  final Icon child;
+  /// Widget to be promoted.
+  final Widget child;
 
   /// Flag to indicate whether to show the overlay or not anchored to the
   /// [child].

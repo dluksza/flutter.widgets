@@ -312,7 +312,7 @@ class TapTarget extends StatelessWidget {
   final void Function() onTap;
 
   /// Child widget that will be promoted by the overlay.
-  final Icon child;
+  final Widget child;
 
   TapTarget({
     @required this.animations,
